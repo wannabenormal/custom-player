@@ -1,0 +1,8 @@
+.player {
+  position: relative;
+}
+
+.player__video {
+  width: 800px;
+  height: 600px;
+}
