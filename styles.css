@@ -12,7 +12,12 @@
 }
 
 .player__controls {
+  display: flex;
   background-color: #000;
+}
+
+.player__fullscreen {
+  margin-left: auto;
 }
 
 .button {
