@@ -16,10 +16,19 @@
 }
 
 .button {
+  margin-right: 5px;
   border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
   background-color: transparent;
   cursor: pointer;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 40px;
   color: #fff;
+}
+
+.button:last-child {
+  margin-right: 0;
 }
