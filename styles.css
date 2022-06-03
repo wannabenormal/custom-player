@@ -13,5 +13,7 @@
 
 .button {
   border: 0;
+  color: #fff;
+  background-color: transparent;
   cursor: pointer;
 }
