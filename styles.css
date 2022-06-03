@@ -1,10 +1,14 @@
 .player {
   position: relative;
+  width: 800px;
 }
 
 .player__video {
-  width: 800px;
   height: 600px;
+}
+
+.player__controls {
+  background-color: #000;
 }
 
 .button {
