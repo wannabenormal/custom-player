@@ -16,7 +16,17 @@ body {
 
 .player__controls {
   display: flex;
+  align-items: center;
   background-color: #000;
+}
+
+.player__current-time {
+  margin-left: -2px;
+}
+
+.player__duration {
+  margin-left: auto;
+  margin-right: 2px;
 }
 
 .button {
@@ -34,6 +44,10 @@ body {
 }
 
 .button:last-child {
-  margin-left: auto;
   margin-right: 0;
+}
+
+.time {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
