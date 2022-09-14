@@ -77,4 +77,10 @@ body {
   background-color: #f00;
   box-sizing: border-box;
   flex-shrink: 0;
+  opacity: 0;
+  transition: .3s opacity;
+}
+
+.progress:hover .progress__button {
+  opacity: 1;
 }
