@@ -58,6 +58,8 @@ body {
 }
 
 .player-time {
+  font-size: 16px;
+  line-height: 1.15;
   font-family: 'Roboto', sans-serif;
   color: #fff;
   flex-shrink: 0;
