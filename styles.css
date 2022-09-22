@@ -20,13 +20,21 @@ body {
   background-color: #000;
 }
 
-.player__current-time {
-  margin-left: -2px;
-}
-
 .player__duration {
   margin-left: auto;
+}
+
+.player__time-info {
+  margin-left: -2px;
   margin-right: 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.player__time-info:hover .progress__button {
+  opacity: 1;
 }
 
 .button {
@@ -80,8 +88,4 @@ body {
   flex-shrink: 0;
   opacity: 0;
   transition: .3s opacity;
-}
-
-.progress:hover .progress__button {
-  opacity: 1;
 }
