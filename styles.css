@@ -37,7 +37,7 @@ body {
   opacity: 1;
 }
 
-.button {
+.player-button {
   margin-right: 3px;
   border: 0;
   padding: 0;
@@ -53,17 +53,17 @@ body {
   outline: none;
 }
 
-.button:last-child {
+.player-button:last-child {
   margin-right: 0;
 }
 
-.time {
+.player-time {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   flex-shrink: 0;
 }
 
-.progress {
+.player-progress {
   display: flex;
   align-items: center;
   margin: 0 10px;
@@ -71,13 +71,13 @@ body {
   height: 6px;
 }
 
-.progress__slider {
+.player-progress__slider {
   height: 100%;
   background-color: #f00;
   border-radius: 16px;
 }
 
-.progress__button {
+.player-progress__button {
   margin-left: -6px;
   width: 12px;
   height: 12px;
